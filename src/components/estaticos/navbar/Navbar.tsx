@@ -8,34 +8,34 @@ function Navbar() {
         <>
             <AppBar position="static" className='bg-menu'>
                 <Toolbar className='container' variant="dense">
-                    <Box style={{ cursor: "pointer" }} >
+                    <Box className='cursor' >
                         <Typography variant="h5" color="inherit" className='title'>
                             Blog Luiza - React
                         </Typography>
                     </Box>
 
                     <Box display="flex" justifyContent="flex-end">
-                        <Box mx={1} style={{ cursor: "pointer" }}>
+                        <Box mx={1} className='cursor'>
                             <Typography variant="h6" color="inherit">
                                 Home
                             </Typography>
                         </Box>
-                        <Box mx={1} style={{ cursor: "pointer" }}>
+                        <Box mx={1} className='cursor'>
                             <Typography variant="h6" color="inherit">
                                 Postagens
                             </Typography>
                         </Box>
-                        <Box mx={1} style={{ cursor: "pointer" }}>
+                        <Box mx={1} className='cursor'>
                             <Typography variant="h6" color="inherit">
                                 Temas
                             </Typography>
                         </Box>
-                        <Box mx={1} style={{ cursor: "pointer" }}>
+                        <Box mx={1} className='cursor'>
                             <Typography variant="h6" color="inherit">
                                 Cadastrar Tema
                             </Typography>
                         </Box>
-                        <Box mx={1} style={{ cursor: "pointer" }}>
+                        <Box mx={1} className='cursor'>
                             <Typography variant="h6" color="inherit">
                                 Logout
                             </Typography>

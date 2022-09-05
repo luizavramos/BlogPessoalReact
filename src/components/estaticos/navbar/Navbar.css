@@ -10,3 +10,7 @@
 .title{
     font-weight: bold!important;
 }
+.cursor{
+    cursor: pointer;
+    color: white;
+}

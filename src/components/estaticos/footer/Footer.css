@@ -1,9 +1,20 @@
 .container{
     background: rgb(23,190,187);
-background: linear-gradient(114deg, rgba(23,190,187,1) 0%, rgba(212,244,221,1) 81%);
+    background: linear-gradient(114deg, rgba(23,190,187,1) 0%, rgba(212,244,221,1) 81%);
+    height: 120px;
 }
 .footer{
     background: rgb(23,190,187);
-        background: linear-gradient(114deg, rgba(23,190,187,1) 0%, rgba(212,244,221,1) 81%);
- 
+    background: linear-gradient(114deg, rgba(23,190,187,1) 0%, rgba(212,244,221,1) 81%);
+    height: 60px;
 }
+
+
+.redes{
+    font-size: 40px !important;
+    color: white;
+}
+.texto{
+    color:white;
+}
+

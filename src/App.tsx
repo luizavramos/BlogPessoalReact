@@ -1,6 +1,7 @@
 import React from 'react';
 import Navbar from './components/estaticos/navbar/Navbar'
 import Footer from './components/estaticos/footer/Footer'
+import CadastroUsuario from './paginas/cadastroUsuario/CadastroUsuario';
 import Home from './paginas/home/Home';
 import './App.css';
 import Login from './paginas/Login/Login';
@@ -17,6 +18,7 @@ function App() {
           
           <Route path='/' element={<Login />} />
           <Route path='/home' element={<Home />} />
+          <Route path='/cadastrousuario' element={<CadastroUsuario/>} />
 
         </Routes>
      
