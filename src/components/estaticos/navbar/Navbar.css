@@ -1,10 +1,11 @@
-.bg-menu{
-    background: "linear-gradient(114deg, rgba(164,28,96,1) 0%, rgba(134,47,101,1) 41%)";
+.bg-navbar{ 
+    background: rgb(255, 240, 249) !important;
 }
 
-.container{
+.container-navbar{
     display: flex;
     justify-content: space-between;
+    height: 5vh !important;
 }
 
 .title{
@@ -12,5 +13,5 @@
 }
 .cursor{
     cursor: pointer;
-    color: white;
+    color: rgb(158, 11, 102);
 }

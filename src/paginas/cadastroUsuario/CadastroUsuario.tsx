@@ -73,7 +73,7 @@ function CadastroUsuario() {
         }
     }
     return (
-        <Grid container direction='row' justifyContent='center' alignItems='center'>
+        <Grid container direction='row' justifyContent='center' alignItems='center' className='cadastro'>
         <Grid item xs={6} className='imagem2'></Grid>
         <Grid item xs={6} alignItems='center' className='cadastro'>
             <Box paddingX={10} className='boxCadastro'>
