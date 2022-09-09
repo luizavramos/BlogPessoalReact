@@ -48,16 +48,16 @@ function ListaPostagem() {
               <Box m={2} >
                 <Card variant="outlined">
                   <CardContent>
-                    <Typography color="textSecondary" gutterBottom>
-                      Postagens
+                    <Typography className='text-lista-post' gutterBottom>
+                      Postagens 
                     </Typography>
-                    <Typography variant="h5" component="h2">
+                    <Typography  className='text-lista-post' variant="h5" component="h2">
                       {post.titulo}
                     </Typography>
-                    <Typography variant="body2" component="p">
+                    <Typography  className='text-lista-post' variant="body2" component="p">
                       {post.texto}
                     </Typography>
-                    <Typography variant="body2" component="p">
+                    <Typography  className='text-lista-post' variant="body2" component="p">
                       {post.tema?.descricao}
                     </Typography>
                   </CardContent>
@@ -66,14 +66,14 @@ function ListaPostagem() {
     
                       <Link to={`/formularioPostagem/${post.id}`} className="text-decorator-none" >
                         <Box mx={1}>
-                          <Button variant="contained" className="marginLeft" size='small' color="primary" >
+                          <Button variant="contained" className="marginLeft btn-lista-post" size='small' color="primary" >
                             atualizar
                           </Button>
                         </Box>
                       </Link>
                       <Link to={`/deletarPostagem/${post.id}`} className="text-decorator-none">
                         <Box mx={1}>
-                          <Button variant="contained" size='small' color="secondary">
+                          <Button variant="contained" size='small' color="secondary" className='btn-lista-post-del'>
                             deletar
                           </Button>
                         </Box>

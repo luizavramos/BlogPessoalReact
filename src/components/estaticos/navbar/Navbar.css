@@ -1,5 +1,5 @@
 .bg-navbar{ 
-    background: rgb(255, 240, 249) !important;
+    background: #2c6976 !important;
 }
 
 .container-navbar{
@@ -13,5 +13,5 @@
 }
 .cursor{
     cursor: pointer;
-    color: rgb(158, 11, 102);
+    color: rgb(255, 255, 255);
 }

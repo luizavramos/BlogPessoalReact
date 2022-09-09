@@ -1,3 +1,16 @@
 .text-decorator-none{
     text-decoration: none;
 }
+
+.text-lista-post{
+    color: #2c6976;
+}
+
+.btn-lista-post{
+    background-color: #2c6976 !important;
+}
+
+.btn-lista-post-del{
+    background-color:  #d4f4dd !important;
+    color: #2c6976 !important;
+}

@@ -79,7 +79,7 @@ function CadastroUsuario() {
             <Box paddingX={10} className='boxCadastro'>
 
                 <form onSubmit={cadastrar}>
-                    <Typography variant='h3' gutterBottom color='textPrimary' component='h3' align='center' className='textos2'>Cadastrar</Typography>
+                    <Typography variant='h3' gutterBottom color='textPrimary' component='h3' align='center' className='text-login'>Cadastrar</Typography>
 
                     <TextField
                         onChange={(e: ChangeEvent<HTMLInputElement>) => updatedModel(e)}
@@ -90,7 +90,8 @@ function CadastroUsuario() {
                         name='nome'
                         margin='normal'
                         fullWidth 
-                        required /> {/* Required: indica que o campo deve ser preenchido */}
+                        required 
+                        className='textfield-login'/> {/* Required: indica que o campo deve ser preenchido */}
 
                     <TextField
                         onChange={(e: ChangeEvent<HTMLInputElement>) => updatedModel(e)}
@@ -101,7 +102,8 @@ function CadastroUsuario() {
                         variant='outlined'
                         name='usuario'
                         margin='normal'
-                        fullWidth required />
+                        fullWidth required 
+                        className='textfield-login'/>
 
                     <TextField
                         onChange={(e: ChangeEvent<HTMLInputElement>) => updatedModel(e)}
@@ -111,7 +113,8 @@ function CadastroUsuario() {
                         variant='outlined'
                         name='foto'
                         margin='normal'
-                        fullWidth />
+                        fullWidth 
+                        className='textfield-login'/>
 
                     <TextField
                         onChange={(e: ChangeEvent<HTMLInputElement>) => updatedModel(e)}
@@ -121,7 +124,8 @@ function CadastroUsuario() {
                         variant='outlined'
                         name='senha'
                         margin='normal' type='password'
-                        fullWidth required />
+                        fullWidth required 
+                        className='textfield-login'/>
 
                     <TextField
                         onChange={(e: ChangeEvent<HTMLInputElement>) => confirmarSenhaHandle(e)}
@@ -131,15 +135,16 @@ function CadastroUsuario() {
                         variant='outlined'
                         name='confirmarSenha'
                         margin='normal' type='password'
-                        fullWidth required />
+                        fullWidth required 
+                        className='textfield-login'/>
 
 
                     <Box marginTop={2} textAlign='center'>
-                        <Button type='submit' variant='contained' color='primary' className='btnCadastrar'>
+                        <Button type='submit' variant='contained' color='primary' className='btn-login'>
                             Cadastrar
                         </Button>
                         <Link to='/login' className='text-decorator-none'>
-                            <Button variant='contained' color='secondary' className='btnCancelar'>
+                            <Button variant='contained' color='secondary' className='btn-cancelar'>
                                 Cancelar
                             </Button>
                         </Link>

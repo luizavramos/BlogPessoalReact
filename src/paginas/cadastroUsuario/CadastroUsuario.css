@@ -1,5 +1,5 @@
 .imagem2{
-    background-image: url(https://i.imgur.com/d5bMdDJ.jpg);
+    background-image: url(https://i.imgur.com/rV6fIFB.png);
     background-repeat: no-repeat;
     width: 100vh;
     min-height: 100vh;
@@ -11,8 +11,10 @@
     font-weight: bold !important;
 }
 
-.btnCancelar{
+.btn-cancelar{
     margin-right:20px !important;
+    background-color: #d4f4dd !important;
+    color: #2c6976 !important;
 }
 
 .cadastro{

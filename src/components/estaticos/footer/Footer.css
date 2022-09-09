@@ -1,20 +1,20 @@
 .container{
-    background: rgb(255, 240, 249) !important;
+    background: #2c6976 !important;
     height: 10vh;
 }
 .footer{
     
-    background:rgb(255, 240, 249) !important;
+    background:#2c6976 !important;
     height: 1vh;
 }
 
 
 .redes{
     font-size: 40px !important;
-    color:rgb(5, 5, 5);
+    color:rgb(255, 255, 255);
 }
 .texto{
-    color:rgb(158, 11, 102);
+    color:#2c6976;
     background-color: rgb(255, 240, 249);
 }
 
