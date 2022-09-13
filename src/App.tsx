@@ -15,6 +15,8 @@ import { Provider } from 'react-redux';
 
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import store from './store/store';
+import {ToastContainer} from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 
 //
@@ -22,6 +24,7 @@ import store from './store/store';
 function App() {
   return (
     <Provider store={store}>
+      <ToastContainer/>
     <Router>
       <Navbar />
       <div style={{ minHeight: '100vh' }}>
